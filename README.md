@@ -10,7 +10,7 @@ Aplicação para organizar tarefas de estudo por matéria, com estatísticas de 
 ## Instalação e uso
 ```bash
 npm install
-npm run dev      # http://localhost:5173
+npm start        # (ou npm run dev) http://localhost:5173
 npm run build    # build de produção
 ```
 Na tela de **Login**, digite qualquer nome para entrar no Dashboard.
@@ -29,7 +29,17 @@ Home · Sobre · Login · Dashboard (rota protegida) · Contato
 | Maria Clara | FeatureCard, StatsPanel, ContactForm | `useLocalStorage` (custom hook + useEffect), integração com API |
 
 ## Prints das telas
-Adicionar aqui prints de Home, Login, Dashboard e Contato (pasta `/prints`).
+**Home**
+![Home](prints/home.png)
+
+**Login**
+![Login](prints/login.png)
+
+**Dashboard**
+![Dashboard](prints/dashboard.png)
+
+**Contato**
+![Contato](prints/contato.png)
 
 ## Tecnologias
 React 18, TypeScript, React Router 6, Vite.
